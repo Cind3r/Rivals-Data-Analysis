@@ -156,7 +156,7 @@ Correlation between performance score and win by role:
 
 More data is needed to build better insights. Current sample size is ~400-500 matches with around 3000 individual players. To better sample data, start at a single match, request and pick a random player_uid aside from your starting point, go grab a random match from their history, continue this process for ~5000 matches. 
 
-### Classification Reports
+## Classification Reports
 
 Based on the classification reports and feature importance, **individual performance matters most in securing a win**. Here's the supporting evidence:
 
@@ -175,19 +175,19 @@ Based on the classification reports and feature importance, **individual perform
 
 **Individual performance**, as measured by metrics like `kills_x`, `assists_x`, and `hero_damage`, is the most **critical factor** in securing a win. The statistical significance, higher feature importance, and better model accuracy for individual stats strongly support this conclusion.
 
-### Role Dominance 
+## Role Dominance 
 
 **STRATEGIST** role contributes the most to team success. According to the `role_stats` dataframe, **STRATEGISTs** exhibit the highest average assists (14.68) and healing (16,497.25), which are critical for enabling other roles to perform effectively. These metrics highlight the **STRATEGIST's** role in sustaining team momentum and facilitating coordination during matches.
 
 Furthermore, the correlation analysis, as presented in the `role_correlation` dataframe, reveals that the **STRATEGIST** role demonstrates the strongest correlation with match victories (0.382134), surpassing other roles. This finding underscores the significant relationship between the performance of **STRATEGISTs** and the likelihood of winning matches. Additionally, the `role_win_stats` dataframe indicates that **STRATEGISTs** achieve the highest average win rate (0.433628), further emphasizing their impact on team success.
 
-### Role-Swapping (Counter-Swap etc.)
+## Role-Swapping (Counter-Swap etc.)
 
 Overall, the larger number of swaps a player/team makes is associated with a negative winrate. Role swapping has a negative associated winrate fairly even accross the board, however, the lower winrate for **STRATEGIST** does suggest a large impact on game outcome. 
 
 When normalizing the winrate on role swapping, the character swap (*e.g. **DUELIST -> DUELIST***) categories across all roles are significantly the lowest. This is likely due to team composition issues, *'one-trick'* players, lower profeciency at the hero at the same skill level, and or lack of hero kits in that role to deal with the enemy.
 
-#### Lowest Win-rate Swap (Adjusted)
+### Lowest Win-rate Swap (Adjusted)
 
 The lowest winrate swap after adjusting is **DUELIST -> STRATEGIST**. There are many implications can be drawn about this such as:
 - **DUELISTs** on average understand less about supporting priority / ultimate economy
@@ -195,13 +195,13 @@ The lowest winrate swap after adjusting is **DUELIST -> STRATEGIST**. There are 
 
 As **STRATEGIST -> DUELIST** win rate remains larger, it suggests that **STRATEGISTs** aren't swapping to fill the role of DUELIST at the same rate, meaning it's likely a 2-1-3 or 1-2-3 comp being formed. We can see from the chart in **DATA ANALYSIS (3)** that these comps heavily underperform compared to the classic 2-2-2 that has been ideal since the start of Hero Shooters.
 
-### **On Win-rate per Number of Swaps**
+## **On Win-rate per Number of Swaps**
 
 There is a noticable downwards trend in the number of swaps lowering the overall likelihood to win. However, we can see around 5 swaps in a match can actually improve your ability to win. Considering these are grouped by `match_uid`  and by teams that won, it can imply that team composition matters more than swapping itself. 
 
 For example, 1-VANGUARD (Melee/Dive), 3-DUELISTs (1 Melee / 2 Projectile), 2-STRATEGISTS (1 Projectile / 1 Hitscan) has no necessary cohesion. If 5 members were to swap and fulfill a team identity (Brawl/Dive/Poke, etc.) around the member carrying on the team, or into a composition that counter's the enemy (Dive -> Poke), you would see a drastic increase in likelihood to win regardless of current performance score.
 
-### **On Win-rate per Number of Swaps**
+## **On Win-rate per Number of Swaps**
 
 There is a noticable downwards trend in the number of swaps lowering the overall likelihood to win. However, we can see around 5 swaps in a match can actually improve your ability to win. Considering these are grouped by `match_uid`  and by teams that won, it can imply that team composition matters more than swapping itself. 
 
