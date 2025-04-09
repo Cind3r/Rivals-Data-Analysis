@@ -69,9 +69,27 @@ There isn't a great way to check for this other than individually tagging each p
 
 **I'll be assuming that if there is a team with N-stack, the enemy team also has a N-stack of equal players.**
 
-***
-## Results
-
 ### **3. Match Duration & Early FFs**
 
 Any matches that resulted in a surrender will be removed from the sampling pool. There are unlikely to give data either way that is important. This also includes matches that had leavers. 
+
+***
+## Results
+
+![image](https://github.com/user-attachments/assets/0c635293-d87f-4c56-ad44-667d43dbb0ad)
+![image](https://github.com/user-attachments/assets/4cad689e-8698-402f-b1cf-3d3b94e4667a)
+![image](https://github.com/user-attachments/assets/a5ad4b67-63cd-4132-9ac1-f3ebe3ec0d0d)
+![image](https://github.com/user-attachments/assets/22f1bb22-5e34-4bd3-bdc3-eda205297497)
+![image](https://github.com/user-attachments/assets/15f6b310-aa96-4768-8f94-d83c7d935674)
+![image](https://github.com/user-attachments/assets/ab43255d-a78e-470e-89b6-c56a5d231e04)
+![image](https://github.com/user-attachments/assets/d38ec75b-2f6f-4771-8201-24bdfc782d15)
+![image](https://github.com/user-attachments/assets/e9de683d-db10-41d8-b351-0d09c8a9f5b2)
+![image](https://github.com/user-attachments/assets/a5aa5f76-1394-43c7-9730-db9a13a49312)
+![image](https://github.com/user-attachments/assets/2eb87f33-1072-4eab-9c27-db12c07abc79)
+![image](https://github.com/user-attachments/assets/31467c3b-b696-4d56-a435-6ad4399f8fcb)
+![image](https://github.com/user-attachments/assets/02502e3e-0df2-4f8f-8af0-512acfd4e34d)
+![image](https://github.com/user-attachments/assets/a489315a-ad2a-40a6-99a9-51a88d3c27d8)
+![image](https://github.com/user-attachments/assets/5e9cfa96-9708-4d73-9196-2397f076e808)
+![image](https://github.com/user-attachments/assets/ffb9c1c8-ee73-4ba9-b46c-731c75394c56)
+
+
