@@ -69,6 +69,9 @@ There isn't a great way to check for this other than individually tagging each p
 
 **I'll be assuming that if there is a team with N-stack, the enemy team also has a N-stack of equal players.**
 
+***
+## Results
+
 ### **3. Match Duration & Early FFs**
 
 Any matches that resulted in a surrender will be removed from the sampling pool. There are unlikely to give data either way that is important. This also includes matches that had leavers. 
