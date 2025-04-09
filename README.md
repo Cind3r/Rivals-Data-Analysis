@@ -141,10 +141,14 @@ Feature Importance:
 4   hero_healed    0.090086
 
 ## By Role
+
 Correlation between performance score and win by role:
+
          role  correlation  abs_correlation
 1  STRATEGIST     0.382134         0.382134
+
 0     DUELIST     0.346564         0.346564
+
 2    VANGUARD     0.309352         0.309352
 
 *** 
