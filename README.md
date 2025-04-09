@@ -110,7 +110,7 @@ Classification Report:
 
 Feature Importance:
 
-              Feature  Importance
+              Feature        Importance
     0         total_kills    0.353035
     1       total_assists    0.204208
     2        total_deaths    0.130392
@@ -124,7 +124,7 @@ Accuracy: **0.88**
 
 Classification Report:
 
-    precision    recall  f1-score   support
+                precision    recall    f1-score   support
            0       0.88      0.88      0.88       226
            1       0.88      0.88      0.88       231
     accuracy                           0.88       457
