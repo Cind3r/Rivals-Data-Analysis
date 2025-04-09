@@ -97,57 +97,59 @@ Any matches that resulted in a surrender will be removed from the sampling pool.
 Accuracy: **0.81**
 
 Classification Report:
+
               precision    recall  f1-score   support
 
            0       0.87      0.72      0.79        18
            1       0.76      0.89      0.82        18
 
     accuracy                           0.81        36
-   macro avg       0.81      0.81      0.80        36
-weighted avg       0.81      0.81      0.80        36
+    macro avg       0.81      0.81      0.80        36
+    weighted avg       0.81      0.81      0.80        36
 
 
 Feature Importance:
+
               Feature  Importance
-0         total_kills    0.353035
-1       total_assists    0.204208
-2        total_deaths    0.130392
-5  total_damage_taken    0.122390
-4       total_healing    0.096894
-3        total_damage    0.093081
+    0         total_kills    0.353035
+    1       total_assists    0.204208
+    2        total_deaths    0.130392
+    5  total_damage_taken    0.122390
+    4       total_healing    0.096894
+    3        total_damage    0.093081
 
 
 ## Individual Performance
 Accuracy: **0.88**
 
 Classification Report:
-              precision    recall  f1-score   support
 
+    precision    recall  f1-score   support
            0       0.88      0.88      0.88       226
            1       0.88      0.88      0.88       231
-
     accuracy                           0.88       457
-   macro avg       0.88      0.88      0.88       457
-weighted avg       0.88      0.88      0.88       457
+    macro avg       0.88      0.88      0.88       457
+    weighted avg       0.88      0.88      0.88       457
 
 
 Feature Importance:
+
         Feature  Importance
-0       kills_x    0.321518
-1      deaths_x    0.160811
-3   hero_damage    0.158794
-5  damage_taken    0.155595
-2     assists_x    0.113196
-4   hero_healed    0.090086
+    0       kills_x    0.321518
+    1      deaths_x    0.160811
+    3   hero_damage    0.158794
+    5  damage_taken    0.155595
+    2     assists_x    0.113196
+    4   hero_healed    0.090086
 
 ## By Role
 
 Correlation between performance score and win by role:
 
      role           correlation      abs_correlation
-0    STRATEGIST     0.382134         0.382134
-1    DUELIST        0.346564         0.346564
-2    VANGUARD       0.309352         0.309352
+    0    STRATEGIST     0.382134         0.382134
+    1    DUELIST        0.346564         0.346564
+    2    VANGUARD       0.309352         0.309352
 
 
 *** 
