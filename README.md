@@ -212,8 +212,3 @@ There is a noticable downwards trend in the number of swaps lowering the overall
 
 For example, 1-VANGUARD (Melee/Dive), 3-DUELISTs (1 Melee / 2 Projectile), 2-STRATEGISTS (1 Projectile / 1 Hitscan) has no necessary cohesion. If 5 members were to swap and fulfill a team identity (Brawl/Dive/Poke, etc.) around the member carrying on the team, or into a composition that counter's the enemy (Dive -> Poke), you would see a drastic increase in likelihood to win regardless of current performance score.
 
-## **On Win-rate per Number of Swaps**
-
-There is a noticable downwards trend in the number of swaps lowering the overall likelihood to win. However, we can see around 5 swaps in a match can actually improve your ability to win. Considering these are grouped by `match_uid`  and by teams that won, it can imply that team composition matters more than swapping itself. 
-
-For example, 1-VANGUARD (Melee/Dive), 3-DUELISTs (1 Melee / 2 Projectile), 2-STRATEGISTS (1 Projectile / 1 Hitscan) has no necessary cohesion. If 5 members were to swap and fulfill a team identity (Brawl/Dive/Poke, etc.) around the member carrying on the team, or into a composition that counter's the enemy (Dive -> Poke), you would see a drastic increase in likelihood to win regardless of current performance score.  
