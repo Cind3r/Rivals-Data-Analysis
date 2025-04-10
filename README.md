@@ -236,6 +236,11 @@ Instead, swaps normally have an effect of slightly decreasing the average perfor
 
 The box plot illustrates how players who do swap and in are on average out performing the enemy team by 1.96x the Performance score which is a significant value given the context of how it is calculated (see DATA ANALYSIS 3).
 
+![image](https://github.com/user-attachments/assets/3541821a-80cc-413c-988c-d0478ca87be5)
+![image](https://github.com/user-attachments/assets/ba393594-5f15-44b2-ab50-43d864e88720)
+
+The above histograms further illustrate that while player performance increases and reduces the likelihood of loss, the team's overall performance decreases and likelihood of loss increeases. This suggests along with the above charts showing number of swaps vs. winrate that if a swap is to occur, the rest of the teams should swap and adjust as well. From a contextual standpoint of the game, this indicates a need for team cohesion and composition. A swap make improve your average performance, but if the hero swapped to doesn't play well with your teammates, you decrease the likelihood of winning. 
+
 When normalizing the winrate on role swapping, the character swap (*e.g. **DUELIST -> DUELIST***) categories across all roles are significantly the lowest. This is likely due to team composition issues, *'one-trick'* players, lower profeciency at the hero at the same skill level, and or lack of hero kits in that role to deal with the enemy.
 
 ### Lowest Win-rate Swap (Adjusted)
