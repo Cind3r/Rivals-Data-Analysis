@@ -73,6 +73,42 @@ There isn't a great way to check for this other than individually tagging each p
 
 Any matches that resulted in a surrender will be removed from the sampling pool. There are unlikely to give data either way that is important. This also includes matches that had leavers. 
 
+## Methods
+
+This analysis investigates the relationship between individual and team **performance metrics** and their impact on match outcomes. The dataset is preprocessed to calculate performance scores for players and teams using z-scores, which measure deviations from role or team averages. 
+
+#### Steps:
+1. **Data Preprocessing**:
+    - Load and clean the dataset to ensure all required columns are present and numeric values are properly formatted.
+    - Group data by roles and teams to calculate average performance metrics (e.g., kills, assists, damage) and their standard deviations.
+
+2. **Performance Score Calculation**:
+    - For individual players:
+      - Compute z-scores for each player by comparing their metrics (e.g., kills, deaths, assists, damage dealt, healing, damage taken) to the average metrics of their respective roles.
+      - The formula for the z-score is:
+
+$$
+z = \frac{x - \text{mean}}{\text{std\_dev}}
+$$
+where $x$ is the player's metric, $\text{mean}$ is the role average, and $\text{std\_dev}$ is the standard deviation for that metric.
+
+- Combine z-scores across all metrics to calculate an overall performance score for each player.
+    - For teams:
+      - Compute z-scores for team-level metrics (e.g., total kills, assists, damage, healing) by comparing them to the overall team averages.
+      - Aggregate these z-scores to derive a team performance score.
+
+3. **Statistical Analysis**:
+    - Conduct t-tests to evaluate the significance of individual and team metrics (e.g., `hero_damage`, `total_damage`) in determining match outcomes.
+    - Train Random Forest classifiers to predict match outcomes based on individual and team-based features.
+    - Extract feature importance rankings to identify key predictors of success.
+
+4. **Visualization**:
+    - Use scatter plots to explore the relationship between individual and team performance scores and match outcomes.
+    - Generate histograms to analyze the distribution of performance scores for winning and losing players/teams.
+    - Create heatmaps to examine correlations between features.
+
+The analysis also examines the influence of team compositions and roles on match success, highlighting the contributions of specific roles like `STRATEGIST` to overall team performance.
+
 ***
 ## Results
 
