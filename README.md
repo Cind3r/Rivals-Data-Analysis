@@ -218,7 +218,10 @@ Based on the classification reports and feature importance, **individual perform
 Furthermore, the correlation analysis, as presented in the `role_correlation` dataframe, reveals that the **STRATEGIST** role demonstrates the strongest correlation with match victories (0.382134), surpassing other roles. This finding underscores the significant relationship between the performance of **STRATEGISTs** and the likelihood of winning matches. Additionally, the `role_win_stats` dataframe indicates that **STRATEGISTs** achieve the highest average win rate (0.433628), further emphasizing their impact on team success.
 
 ***
-# On Role-Swapping (Counter-Swap etc.)
+
+
+# **On Role-Swapping (Counter-Swap etc.)**
+
 
 This is a special section dedicated to the investigation of sswapping that arose from my data analysis that was not included in the original project plan. 
 
