@@ -194,6 +194,10 @@ Overall, the larger number of swaps a player/team makes is associated with a neg
 
 Late swaps actually correlate to a better overall performance for the player, however, this does not change the outcome of the match. This could indicate that the team was just 'better' and no amount of individual change would have impact. 
 
+![image](https://github.com/user-attachments/assets/e3d86aae-875f-41e6-968c-3ba99a60e75e)
+
+Instead, swaps normally have an effect of slightly decreasing the average performance of your team rather than improving it.
+
 The box plot illustrates how players who do swap and in are on average out performing the enemy team by 1.96x the Performance score which is a significant value given the context of how it is calculated (see DATA ANALYSIS 3).
 
 When normalizing the winrate on role swapping, the character swap (*e.g. **DUELIST -> DUELIST***) categories across all roles are significantly the lowest. This is likely due to team composition issues, *'one-trick'* players, lower profeciency at the hero at the same skill level, and or lack of hero kits in that role to deal with the enemy.
