@@ -90,7 +90,7 @@ This analysis investigates the relationship between individual and team **perfor
 $$
 z = \frac{x - \text{mean}}{\text{std\_dev}}
 $$
-where $x$ is the player's metric, $\text{mean}$ is the role average, and $\text{std\_dev}$ is the standard deviation for that metric.
+
 
 - Combine z-scores across all metrics to calculate an overall performance score for each player.
     - For teams:
