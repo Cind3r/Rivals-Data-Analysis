@@ -188,6 +188,12 @@ Furthermore, the correlation analysis, as presented in the `role_correlation` da
 
 Overall, the larger number of swaps a player/team makes is associated with a negative winrate. Role swapping has a negative associated winrate fairly even accross the board, however, the lower winrate for **STRATEGIST** does suggest a large impact on game outcome. This concept should not be conflated with the idea that players are swapping are already losing, so they'll continue to lose. The reasoning is highlighted in the charts above as we can see that **average player's winrate increases** as time is spent on a single hero per match. 
 
+![image](https://github.com/user-attachments/assets/3b8360b8-a095-4ade-8019-824553a2eb18)
+![image](https://github.com/user-attachments/assets/9a070ddb-e5e6-4632-88bc-ab2e6e25820f)
+![image](https://github.com/user-attachments/assets/f1a18946-9503-4dab-97bb-00f155bbf13d)
+
+Late swaps actually correlate to a better overall performance for the player, however, this does not change the outcome of the match. This could indicate that the team was just 'better' and no amount of individual change would have impact. 
+
 The box plot illustrates how players who do swap and in are on average out performing the enemy team by 1.96x the Performance score which is a significant value given the context of how it is calculated (see DATA ANALYSIS 3).
 
 When normalizing the winrate on role swapping, the character swap (*e.g. **DUELIST -> DUELIST***) categories across all roles are significantly the lowest. This is likely due to team composition issues, *'one-trick'* players, lower profeciency at the hero at the same skill level, and or lack of hero kits in that role to deal with the enemy.
