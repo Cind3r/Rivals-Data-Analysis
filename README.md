@@ -1,5 +1,5 @@
 # Rivals-Data-Analysis
-Course work for Masters of Data Science
+
 Note: The data folder is an example folder for the client output. It does not contain any of the data used to create the figures below (S1.5 vs S2.0 in the data folder). 
 
 ## What are we investigating? 
